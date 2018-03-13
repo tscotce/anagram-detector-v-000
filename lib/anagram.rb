@@ -12,6 +12,7 @@ class Anagram
         a << w
       end
     end
+    a
   end
   
 end
