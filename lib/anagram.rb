@@ -10,6 +10,7 @@ class Anagram
       if w.split("").sort! == @word.split("").sort! 
       return w
       end
+    return []  
     end
   end
   
