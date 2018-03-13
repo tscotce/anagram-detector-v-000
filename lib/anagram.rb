@@ -6,11 +6,11 @@ class Anagram
   end
   
   def match(list)
+    a = []
     list.collect do |w|
       if w.split("").sort! == @word.split("").sort! 
-      #return w.to_a
+        a << w
       end
-    #return []  
     end
   end
   
