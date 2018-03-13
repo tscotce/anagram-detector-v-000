@@ -1,7 +1,7 @@
 class Anagram
   attr_accessor :word
   
-  def match(anagrams)
+  def match(array)
     
   end
   
