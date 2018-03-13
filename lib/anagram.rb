@@ -5,8 +5,8 @@ class Anagram
     @word = word
   end
   
-  def match(array)
-    array.each do |w|
+  def match(list)
+    list.collect do |w|
       w.split("").sort! == @word.split("").sort!
     end
   end
