@@ -9,8 +9,8 @@ class Anagram
     list.collect do |w|
       if w.split("").sort! == @word.split("").sort! 
       return @word
+      else return w
       end
-      return w
     end
   end
   
